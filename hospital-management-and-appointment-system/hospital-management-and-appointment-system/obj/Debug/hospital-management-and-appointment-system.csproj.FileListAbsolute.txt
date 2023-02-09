@@ -1,0 +1,11 @@
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\bin\Debug\hospital-management-and-appointment-system.exe.config
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\bin\Debug\hospital-management-and-appointment-system.exe
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\bin\Debug\hospital-management-and-appointment-system.pdb
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital-management-and-appointment-system.csproj.AssemblyReference.cache
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital-management-and-appointment-system.csproj.SuggestedBindingRedirects.cache
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.Form1.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.Properties.Resources.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital-management-and-appointment-system.csproj.GenerateResource.cache
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital-management-and-appointment-system.csproj.CoreCompileInputs.cache
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital-management-and-appointment-system.exe
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital-management-and-appointment-system.pdb
