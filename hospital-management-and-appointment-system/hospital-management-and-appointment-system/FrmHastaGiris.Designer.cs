@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.LnkUyeOl = new System.Windows.Forms.LinkLabel();
-            this.MskTc = new System.Windows.Forms.MaskedTextBox();
+            this.MskTC = new System.Windows.Forms.MaskedTextBox();
             this.TxtSifre = new System.Windows.Forms.TextBox();
             this.BtnGirisYap = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -70,21 +70,21 @@
             // 
             this.LnkUyeOl.AutoSize = true;
             this.LnkUyeOl.LinkColor = System.Drawing.Color.White;
-            this.LnkUyeOl.Location = new System.Drawing.Point(477, 218);
+            this.LnkUyeOl.Location = new System.Drawing.Point(380, 290);
             this.LnkUyeOl.Name = "LnkUyeOl";
             this.LnkUyeOl.Size = new System.Drawing.Size(75, 23);
             this.LnkUyeOl.TabIndex = 3;
             this.LnkUyeOl.TabStop = true;
             this.LnkUyeOl.Text = "Kayıt Ol";
             // 
-            // MskTc
+            // MskTC
             // 
-            this.MskTc.Location = new System.Drawing.Point(265, 177);
-            this.MskTc.Mask = "00000000000";
-            this.MskTc.Name = "MskTc";
-            this.MskTc.Size = new System.Drawing.Size(190, 32);
-            this.MskTc.TabIndex = 4;
-            this.MskTc.ValidatingType = typeof(int);
+            this.MskTC.Location = new System.Drawing.Point(265, 177);
+            this.MskTC.Mask = "00000000000";
+            this.MskTC.Name = "MskTC";
+            this.MskTC.Size = new System.Drawing.Size(190, 32);
+            this.MskTC.TabIndex = 4;
+            this.MskTC.ValidatingType = typeof(int);
             // 
             // TxtSifre
             // 
@@ -95,9 +95,9 @@
             // 
             // BtnGirisYap
             // 
-            this.BtnGirisYap.Location = new System.Drawing.Point(348, 253);
+            this.BtnGirisYap.Location = new System.Drawing.Point(265, 253);
             this.BtnGirisYap.Name = "BtnGirisYap";
-            this.BtnGirisYap.Size = new System.Drawing.Size(107, 29);
+            this.BtnGirisYap.Size = new System.Drawing.Size(190, 34);
             this.BtnGirisYap.TabIndex = 6;
             this.BtnGirisYap.Text = "Giriş Yap";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
@@ -106,11 +106,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
-            this.ClientSize = new System.Drawing.Size(714, 395);
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.ClientSize = new System.Drawing.Size(714, 418);
             this.Controls.Add(this.BtnGirisYap);
             this.Controls.Add(this.TxtSifre);
-            this.Controls.Add(this.MskTc);
+            this.Controls.Add(this.MskTC);
             this.Controls.Add(this.LnkUyeOl);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -132,7 +132,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel LnkUyeOl;
-        private System.Windows.Forms.MaskedTextBox MskTc;
+        private System.Windows.Forms.MaskedTextBox MskTC;
         private System.Windows.Forms.TextBox TxtSifre;
         private System.Windows.Forms.Button BtnGirisYap;
     }
