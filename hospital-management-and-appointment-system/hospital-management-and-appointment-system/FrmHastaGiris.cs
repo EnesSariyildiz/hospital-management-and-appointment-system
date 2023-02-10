@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Security.Cryptography;
 
 namespace hospital_management_and_appointment_system
 {
@@ -21,11 +23,39 @@ namespace hospital_management_and_appointment_system
         {
 
         }
+        sqlBaglanti bgl = new sqlBaglanti();
 
         private void LnkUyeOl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FrmHastaKayit fr = new FrmHastaKayit();
             fr.Show();
+        }
+
+        private void FrmHastaGiris_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnGirisYap_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("Select * from Tbl_Hastalar where HastaTC=@p1 and HastaSifre =@p2", bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1",MskTC.Text);
+            komut.Parameters.AddWithValue("@p2",TxtSifre.Text);
+            SqlDataReader dr = komut.ExecuteReader();
+            if (dr.Read())
+            {
+                FrmHastaDetay fr=new FrmHastaDetay();
+                fr.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Hatalı TC ya da Şifre");
+            }
+
+            bgl.baglanti().Close();
+            
         }
     }
 }

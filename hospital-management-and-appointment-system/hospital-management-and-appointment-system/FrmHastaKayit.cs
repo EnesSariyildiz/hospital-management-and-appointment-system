@@ -47,5 +47,10 @@ namespace hospital_management_and_appointment_system
             bgl.baglanti().Close();
             MessageBox.Show("Kaydınız gerçekleşmiştir. Şifreniz :" + TxtSifre.Text,"Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
+
+        private void FrmHastaKayit_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

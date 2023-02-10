@@ -213,6 +213,7 @@
             this.Name = "FrmHastaKayit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hasta Kayıt";
+            this.Load += new System.EventHandler(this.FrmHastaKayit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

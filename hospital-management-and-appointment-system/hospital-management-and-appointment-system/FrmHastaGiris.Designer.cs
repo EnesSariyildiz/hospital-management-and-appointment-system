@@ -103,6 +103,7 @@
             this.BtnGirisYap.TabIndex = 6;
             this.BtnGirisYap.Text = "Giriş Yap";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
+            this.BtnGirisYap.Click += new System.EventHandler(this.BtnGirisYap_Click);
             // 
             // FrmHastaGiris
             // 
@@ -126,6 +127,7 @@
             this.Name = "FrmHastaGiris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hasta Girişi";
+            this.Load += new System.EventHandler(this.FrmHastaGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
