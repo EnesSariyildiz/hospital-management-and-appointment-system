@@ -77,6 +77,7 @@
             this.LnkUyeOl.TabIndex = 3;
             this.LnkUyeOl.TabStop = true;
             this.LnkUyeOl.Text = "Kayıt Ol";
+            this.LnkUyeOl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkUyeOl_LinkClicked);
             // 
             // MskTC
             // 
@@ -105,6 +106,7 @@
             // 
             // FrmHastaGiris
             // 
+            this.AcceptButton = this.BtnGirisYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;

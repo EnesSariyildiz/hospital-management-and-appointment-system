@@ -21,5 +21,11 @@ namespace hospital_management_and_appointment_system
         {
 
         }
+
+        private void LnkUyeOl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmHastaKayit fr = new FrmHastaKayit();
+            fr.Show();
+        }
     }
 }
