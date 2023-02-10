@@ -1,6 +1,6 @@
 ﻿namespace hospital_management_and_appointment_system
 {
-    partial class FrmBilgiDüzenle
+    partial class FrmDoktorBilgiDüzenle
     {
         /// <summary>
         /// Required designer variable.
@@ -28,171 +28,142 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BtnBilgiGüncelle = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.CmbCinsiyet = new System.Windows.Forms.ComboBox();
-            this.MskTelefon = new System.Windows.Forms.MaskedTextBox();
             this.TxtSifre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.TxtSoyad = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.TxtAd = new System.Windows.Forms.TextBox();
             this.MskTC = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.CmbBrans = new System.Windows.Forms.ComboBox();
+            this.BtnBilgiGüncelle = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // BtnBilgiGüncelle
-            // 
-            this.BtnBilgiGüncelle.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.BtnBilgiGüncelle.ForeColor = System.Drawing.Color.Black;
-            this.BtnBilgiGüncelle.Location = new System.Drawing.Point(310, 487);
-            this.BtnBilgiGüncelle.Name = "BtnBilgiGüncelle";
-            this.BtnBilgiGüncelle.Size = new System.Drawing.Size(345, 40);
-            this.BtnBilgiGüncelle.TabIndex = 32;
-            this.BtnBilgiGüncelle.Text = "Güncelle";
-            this.BtnBilgiGüncelle.UseVisualStyleBackColor = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.label6.Location = new System.Drawing.Point(218, 445);
-            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 23);
-            this.label6.TabIndex = 31;
-            this.label6.Text = "Cinsiyet:";
-            // 
-            // CmbCinsiyet
-            // 
-            this.CmbCinsiyet.FormattingEnabled = true;
-            this.CmbCinsiyet.Items.AddRange(new object[] {
-            "Erkek",
-            "Kadın"});
-            this.CmbCinsiyet.Location = new System.Drawing.Point(310, 437);
-            this.CmbCinsiyet.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.CmbCinsiyet.Name = "CmbCinsiyet";
-            this.CmbCinsiyet.Size = new System.Drawing.Size(345, 31);
-            this.CmbCinsiyet.TabIndex = 30;
-            // 
-            // MskTelefon
-            // 
-            this.MskTelefon.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.MskTelefon.Location = new System.Drawing.Point(310, 234);
-            this.MskTelefon.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.MskTelefon.Mask = "(999) 000-0000";
-            this.MskTelefon.Name = "MskTelefon";
-            this.MskTelefon.Size = new System.Drawing.Size(345, 32);
-            this.MskTelefon.TabIndex = 29;
             // 
             // TxtSifre
             // 
             this.TxtSifre.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.TxtSifre.Location = new System.Drawing.Point(310, 368);
+            this.TxtSifre.Location = new System.Drawing.Point(269, 346);
             this.TxtSifre.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(345, 32);
-            this.TxtSifre.TabIndex = 28;
+            this.TxtSifre.TabIndex = 38;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.label5.Location = new System.Drawing.Point(245, 371);
+            this.label5.Location = new System.Drawing.Point(204, 349);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 23);
-            this.label5.TabIndex = 27;
+            this.label5.TabIndex = 37;
             this.label5.Text = "Şifre:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.label4.Location = new System.Drawing.Point(221, 237);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 23);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Telefon:";
             // 
             // TxtSoyad
             // 
             this.TxtSoyad.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.TxtSoyad.Location = new System.Drawing.Point(310, 167);
+            this.TxtSoyad.Location = new System.Drawing.Point(269, 170);
             this.TxtSoyad.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(345, 32);
-            this.TxtSoyad.TabIndex = 25;
+            this.TxtSoyad.TabIndex = 35;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.label1.Location = new System.Drawing.Point(233, 176);
+            this.label1.Location = new System.Drawing.Point(192, 179);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 23);
-            this.label1.TabIndex = 24;
+            this.label1.TabIndex = 34;
             this.label1.Text = "Soyad:";
             // 
             // TxtAd
             // 
             this.TxtAd.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.TxtAd.Location = new System.Drawing.Point(310, 99);
+            this.TxtAd.Location = new System.Drawing.Point(269, 107);
             this.TxtAd.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(345, 32);
-            this.TxtAd.TabIndex = 23;
+            this.TxtAd.TabIndex = 33;
             // 
             // MskTC
             // 
             this.MskTC.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.MskTC.Location = new System.Drawing.Point(310, 301);
+            this.MskTC.Location = new System.Drawing.Point(269, 231);
             this.MskTC.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(345, 32);
-            this.MskTC.TabIndex = 22;
+            this.MskTC.TabIndex = 32;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.label3.Location = new System.Drawing.Point(261, 108);
+            this.label3.Location = new System.Drawing.Point(220, 116);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 23);
-            this.label3.TabIndex = 21;
+            this.label3.TabIndex = 31;
             this.label3.Text = "Ad:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
-            this.label2.Location = new System.Drawing.Point(176, 310);
+            this.label2.Location = new System.Drawing.Point(135, 240);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 23);
-            this.label2.TabIndex = 20;
+            this.label2.TabIndex = 30;
             this.label2.Text = "TC Kimlik No:";
             // 
-            // FrmBilgiDüzenle
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F);
+            this.label4.Location = new System.Drawing.Point(204, 291);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(61, 23);
+            this.label4.TabIndex = 39;
+            this.label4.Text = "Brans:";
+            // 
+            // CmbBrans
+            // 
+            this.CmbBrans.FormattingEnabled = true;
+            this.CmbBrans.Location = new System.Drawing.Point(275, 288);
+            this.CmbBrans.Name = "CmbBrans";
+            this.CmbBrans.Size = new System.Drawing.Size(339, 31);
+            this.CmbBrans.TabIndex = 40;
+            // 
+            // BtnBilgiGüncelle
+            // 
+            this.BtnBilgiGüncelle.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.BtnBilgiGüncelle.ForeColor = System.Drawing.Color.Black;
+            this.BtnBilgiGüncelle.Location = new System.Drawing.Point(269, 401);
+            this.BtnBilgiGüncelle.Name = "BtnBilgiGüncelle";
+            this.BtnBilgiGüncelle.Size = new System.Drawing.Size(345, 40);
+            this.BtnBilgiGüncelle.TabIndex = 41;
+            this.BtnBilgiGüncelle.Text = "Güncelle";
+            this.BtnBilgiGüncelle.UseVisualStyleBackColor = false;
+            // 
+            // FrmDoktorBilgiDüzenle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(911, 635);
+            this.ClientSize = new System.Drawing.Size(875, 549);
             this.Controls.Add(this.BtnBilgiGüncelle);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.CmbCinsiyet);
-            this.Controls.Add(this.MskTelefon);
+            this.Controls.Add(this.CmbBrans);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.TxtSifre);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.TxtSoyad);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtAd);
@@ -203,28 +174,25 @@
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "FrmBilgiDüzenle";
+            this.Name = "FrmDoktorBilgiDüzenle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmBilgiDüzenle";
+            this.Text = "FrmDoktorBilgiDüzenle";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button BtnBilgiGüncelle;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox CmbCinsiyet;
-        private System.Windows.Forms.MaskedTextBox MskTelefon;
         private System.Windows.Forms.TextBox TxtSifre;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox TxtSoyad;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TxtAd;
         private System.Windows.Forms.MaskedTextBox MskTC;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox CmbBrans;
+        private System.Windows.Forms.Button BtnBilgiGüncelle;
     }
 }

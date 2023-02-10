@@ -70,7 +70,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 71);
+            this.label1.Location = new System.Drawing.Point(50, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 23);
             this.label1.TabIndex = 0;
@@ -79,7 +79,7 @@
             // LblTC
             // 
             this.LblTC.AutoSize = true;
-            this.LblTC.Location = new System.Drawing.Point(125, 71);
+            this.LblTC.Location = new System.Drawing.Point(125, 41);
             this.LblTC.Name = "LblTC";
             this.LblTC.Size = new System.Drawing.Size(120, 23);
             this.LblTC.TabIndex = 1;
@@ -89,7 +89,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 40);
+            this.label3.Location = new System.Drawing.Point(26, 74);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 23);
             this.label3.TabIndex = 2;
@@ -98,7 +98,7 @@
             // LblAdSoyad
             // 
             this.LblAdSoyad.AutoSize = true;
-            this.LblAdSoyad.Location = new System.Drawing.Point(125, 40);
+            this.LblAdSoyad.Location = new System.Drawing.Point(125, 74);
             this.LblAdSoyad.Name = "LblAdSoyad";
             this.LblAdSoyad.Size = new System.Drawing.Size(85, 23);
             this.LblAdSoyad.TabIndex = 3;

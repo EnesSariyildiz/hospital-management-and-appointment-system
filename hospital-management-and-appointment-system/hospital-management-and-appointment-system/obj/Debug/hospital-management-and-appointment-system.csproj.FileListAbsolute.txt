@@ -11,3 +11,14 @@ C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-sys
 C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmGirisler.resources
 C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmHastaGiris.resources
 C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmHastaKayıt.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmBilgiDüzenle.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmDoktorBilgiDüzenle.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmDoktorDetay.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmDoktorGiris.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmHastaDetay.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmBrans.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmDoktorPaneli.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmDuyurular.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmRandevuListesi.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmSekreterDetay.resources
+C:\Users\ens_s\Desktop\Software\Projects\hospital-management-and-appointment-system\hospital-management-and-appointment-system\obj\Debug\hospital_management_and_appointment_system.FrmSekreterGiris.resources
