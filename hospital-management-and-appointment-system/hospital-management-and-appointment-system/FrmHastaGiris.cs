@@ -45,6 +45,7 @@ namespace hospital_management_and_appointment_system
             if (dr.Read())
             {
                 FrmHastaDetay fr=new FrmHastaDetay();
+                fr.tc = MskTC.Text;
                 fr.Show();
                 this.Hide();
 
